@@ -15,7 +15,6 @@ SUMMARY
 
   s.source_files     = 'ClickSend/**/*.{h,m}'
 
-  s.dependency       'Unirest-APIMATIC' , :git => 'https://github.com/apimatic/unirest-obj-c'
   s.dependency       'JSONModel'
   s.dependency       'ISO8601DateFormatter', '~> 0.7'
 end
