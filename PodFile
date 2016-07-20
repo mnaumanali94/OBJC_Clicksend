@@ -1,0 +1,18 @@
+platform :ios, '6.0'
+
+#required pods
+def required_pods
+    pod 'Unirest-APIMATIC', :git => 'https://github.com/apimatic/unirest-obj-c'
+    pod 'JSONModel'
+	pod 'ISO8601DateFormatter', '~> 0.7'
+end
+
+target 'ClickSend' do
+    required_pods
+end
+
+
+target 'Tests' do
+    required_pods
+end
+
